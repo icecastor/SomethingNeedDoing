@@ -184,4 +184,17 @@ public interface ICommandInterface
     /// <param name="index">Item number, 0 indexed.</param>
     /// <returns>The item text, or an empty string.</returns>
     public string GetSelectIconStringText(int index);
+
+    /// <summary>
+/// Get the current HP of the player.
+/// </summary>
+/// <returns>The current HP value.</returns>
+public int GetHP();
+
+/// <summary>
+/// Get the max HP of the player.
+/// </summary>
+/// <returns>The max HP value.</returns>
+public int GetMaxHP();
+
 }
